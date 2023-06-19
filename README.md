@@ -23,11 +23,15 @@ https://tingyusu1786.github.io/dapp/ (hosted on GitHub page)
     ```
     cd dapp
     ```
-3. #### install packages
+3. #### make a copy of .env and modify your rpc url in .env.local
+   ```
+   cp .env.example .env.local
+   ```
+4. #### install packages
     ```
     npm i
     ```
-4. #### run locally
+5. #### run locally
     ```
     npm run dev
     ```
