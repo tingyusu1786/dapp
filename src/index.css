@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'ttfirs';
+  src: url('../TT\ Firs\ Neue\ Trial\ Medium.ttf');
+}
+
+h2 {
+  @apply text-3xl mb-3 text-[#DEFF1F];
+  font-family: 'ttfirs', sans-serif;
+}
+
+.row-title {
+  @apply text-neutral-400 font-semibold;
+}
+
+.info-row {
+  @apply bg-[#1B1B1C] rounded-md flex flex-col items-start md:flex-row md:justify-between md:px-6 min-h-[64px] md:items-center p-3 overflow-x-scroll transition-all duration-500;
+}
+
+.info-row-transaction {
+  @apply flex flex-col items-start md:flex-row md:justify-between md:px-3 md:items-center overflow-x-scroll transition-all duration-500 mb-1
+}
