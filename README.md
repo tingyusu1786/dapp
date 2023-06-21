@@ -2,7 +2,7 @@
 A simple wallet app built with React.js &amp; Ethers.js.
 
 ## Demo link
-https://tingyusu1786.github.io/dapp/ (hosted on GitHub page)
+https://dapp-sue.web.app/ (hosted on firebase)
 
 ## Tech used
 - Planning: [Figma](https://www.figma.com/file/Oxdbfe5kcZKpdDNMbUmfVV/dapp?type=design&node-id=0%3A1&t=8peo5BQR4cRNXNvo-1)
